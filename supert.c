@@ -27,6 +27,9 @@ int main() {
     scanf("%d", &carta1.populacao);
     printf("Área (km²): ");
     scanf("%f", &carta1.area);
+     while (carta1.area == 0) {
+     printf("Área não pode ser zero! Digite novamente: ");
+    scanf("%f", &carta1.area);}
     printf("PIB (bilhões): ");
     scanf("%f", &carta1.pib);
     printf("Número de pontos turísticos: ");
@@ -48,6 +51,9 @@ int main() {
     scanf("%d", &carta2.populacao);
     printf("Área (km²): ");
     scanf("%f", &carta2.area);
+     while (carta1.area == 0) {
+     printf("Área não pode ser zero! Digite novamente: ");
+    scanf("%f", &carta1.area);}
     printf("PIB (bilhões): ");
     scanf("%f", &carta2.pib);
     printf("Número de pontos turísticos: ");
